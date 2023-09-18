@@ -16,7 +16,6 @@ const server = http.createServer((req, res) => {
         files.forEach((file) => res.write(`${file}<br>`));
         res.end()
     })
-    // response.write("oi")
     
 })
 
